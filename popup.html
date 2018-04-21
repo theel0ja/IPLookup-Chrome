@@ -2,15 +2,32 @@
 <html>
   <head>
     <style>
-      button {
+      body {
+        width: 240px;
+        padding: 5%;
+      }
+
+      button#openIplookup {
         height: 30px;
-        width: 30px;
         outline: none;
       }
     </style>
+
+    <!-- <link rel="stylesheet" href="./third-party/Font-Awesome/web-fonts-with-css/css/fontawesome-all.min.css"> -->
+  
+    <link rel="stylesheet" href="./third-party/bootstrap/css/bootstrap.min.css">
   </head>
-  <body>
-    <button id="changeColor"></button>
+  <body class="container">
+    <ul>
+      <li>IP address: <span id="ipAddress">{ipAddr}</span></li>
+      <li>Domain: <span id="domain">{domain}</span></li>
+    </ul>
+
+    <a id="openIplookup" class="btn btn-primary"
+      target="_blank">More info at iplookup.theel0ja.info</a>
+
+    <!-- <pre id="debugElement">{debug}</pre> -->
+
     <script src="popup.js"></script>
   </body>
 </html>
