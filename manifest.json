@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "TODO: Something here",
   "permissions": ["activeTab", "declarativeContent", "storage"],
-  "options_page": "options.html",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
