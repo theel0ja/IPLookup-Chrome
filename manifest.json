@@ -1,5 +1,5 @@
 {
-  "name": "IPlookup",
+  "name": "IPLookup",
   "version": "0.1.0",
   "description": "TODO: Something here",
   "permissions": ["activeTab", "declarativeContent"],
