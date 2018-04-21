@@ -1,7 +1,7 @@
 {
-  "name": "Getting Started Example",
-  "version": "1.0",
-  "description": "Build an Extension!",
+  "name": "IPlookup",
+  "version": "0.1.0",
+  "description": "TODO: Something here",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "options_page": "options.html",
   "background": {
