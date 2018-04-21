@@ -45,7 +45,7 @@ chrome.tabs.query({
   domainElement.innerText = hostname;
 
   openIplookup.href =
-    "https://iplookup.theel0ja.info/chrome?host=" + hostname + "&ip=" + ipAddressElement.innerText + "&v=" + chrome.app.getDetails().version;
+    "https://iplookup.theel0ja.info/chrome-link?host=" + hostname + "&ip=" + ipAddressElement.innerText + "&v=" + chrome.app.getDetails().version;
 
   // debugElement.innerHTML = JSON.stringify(ipAddress);
 
