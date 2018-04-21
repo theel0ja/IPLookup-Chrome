@@ -2,7 +2,7 @@
   "name": "IPlookup",
   "version": "0.1.0",
   "description": "TODO: Something here",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "permissions": ["activeTab", "declarativeContent"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
